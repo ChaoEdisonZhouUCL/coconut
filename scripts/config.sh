@@ -32,8 +32,7 @@ CONFIG_FILE="args/gsm_coconut.yaml"
 
 # ── HF token ─────────────────────────────────────────────────────────────────
 # Set HF_TOKEN in your environment before running (e.g. export HF_TOKEN=hf_...)
-# HF_TOKEN="${HF_TOKEN:-}"
-HF_TOKEN="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"
+HF_TOKEN="${HF_TOKEN:-}"
 # ── Per-platform SLURM metadata ───────────────────────────────────────────────
 declare -A SLURM_ACCOUNT=([julich]="hai_1293"     [jureca]="hai_1129")
 declare -A SLURM_PART=(   [julich]="booster"      [jureca]="dc-hwai"   [cispa]="xe8545")
